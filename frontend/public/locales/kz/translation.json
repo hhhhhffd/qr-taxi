@@ -1,0 +1,322 @@
+{
+  "app": {
+    "name": "APARU QR Taxi",
+    "loading": "Жүктелуде..."
+  },
+  "scan_prompt": {
+    "title": "QR-кодты сканерлеңіз",
+    "subtitle": "Таксиге бірнеше секундта тапсырыс беріңіз",
+    "description": "Камераны ашып, міну нүктесіндегі QR-кодқа бағыттаңыз.",
+    "hint": "QR-кодсыз тапсырыс беру қолжетімсіз."
+  },
+  "onboarding": {
+    "title": "APARU-ға қош келдіңіз",
+    "slides": {
+      "welcome_title": "QR арқылы такси",
+      "welcome_description": "Шығаберістегі кодты сканерлеп, бірден көлік шақырыңыз.",
+      "pickup_title": "A нүктесі автоматты түрде анықталды",
+      "pickup_description": "QR-локация бойынша міну орны автоматты толтырылады.",
+      "tracking_title": "Сапарды бақылау",
+      "tracking_description": "Статус, ETA және жүргізуші орнын тікелей эфирде қадағалаңыз."
+    },
+    "slide1": {
+      "title": "APARU-ға қош келдіңіз",
+      "description": "Такси тапсырысын тікелей жерден жылдам беріңіз."
+    },
+    "slide2": {
+      "title": "Сканерлеп, жолға шығыңыз",
+      "description": "Ұзақ күтудің қажеті жоқ. Көлік белгіленген жерге келеді."
+    },
+    "slide3": {
+      "title": "Бір қадам қалды",
+      "description": "Жүргізуші байланысу үшін телефон нөміріңізді бөлісіңіз."
+    },
+    "phone_title": "Телефон нөмірін көрсетіңіз",
+    "phone_description": "Жүргізуші сізбен байланысуы үшін қажет.",
+    "request_contact": "Telegram арқылы нөмірді бөлісу",
+    "share_contact": "Контактіні бөлісу",
+    "prompt_phone": "Телефон нөміріңізді енгізіңіз"
+  },
+  "order": {
+    "title": "Тапсырысты рәсімдеу",
+    "point_a": "A нүктесі",
+    "point_b": "B нүктесі",
+    "point_b_placeholder": "Қайда барамыз?",
+    "search_destination": "Мекенжай іздеу",
+    "no_destination": "B нүктесінсіз",
+    "taximeter": "Таксометр бойынша",
+    "tariff": "Тариф",
+    "sedan_group": "Жеңіл көлік",
+    "estimated_price": "Болжамды баға",
+    "create_order": "Такси шақыру",
+    "active_order_notice": "Сізде белсенді тапсырыс бар.",
+    "no_results": "Ештеңе табылмады",
+    "tell_driver": "Жүргізушіге айтамын",
+    "specify_destination": "Мекенжай көрсету",
+    "phone_prompt": "Жүргізуші үшін телефон нөміріңізді енгізіңіз",
+    "order_button": "Тапсырыс беру",
+    "by_taximeter": "Таксометр бойынша",
+    "cash": "Қолма-қол",
+    "kaspi": "Kaspi QR",
+    "max_distance_warning": "Қашықтық тым үлкен. Максимум 30 км.",
+    "location_error": "Локация жүктелмеді",
+    "note_placeholder": "Ескерту",
+    "stop_placeholder": "Аялдама {{number}}"
+  },
+  "tariff_info": {
+    "base_fare": "Базалық ставка",
+    "per_km": "Км үшін",
+    "per_min": "Мин үстемесі (12-ден кейін)",
+    "from": "бастап"
+  },
+  "ride": {
+    "title": "Сапар",
+    "driver_on_way": "Жүргізуші жолда",
+    "eta": "Келу уақыты: {{minutes}} мин",
+    "share_trip": "Сапарды бөлісу",
+    "cancel_confirm": "Тапсырысты бас тартқыңыз келе ме?"
+  },
+  "completed": {
+    "title": "Сапар аяқталды",
+    "final_price": "Қорытынды баға",
+    "rate_driver": "Жүргізушіні бағалаңыз",
+    "comment_placeholder": "Пікір (міндетті емес)",
+    "thanks": "APARU таңдағаныңызға рахмет",
+    "order_again": "Қайта тапсырыс беру",
+    "wechat_app_prompt": "Қаласаңыз, APARU қолданбасын орнатыңыз — тапсырыс беру одан да ыңғайлы болады.",
+    "app_prompt_title": "APARU қолданбасын орнатыңыз",
+    "app_prompt_subtitle": "Қолданбада тапсырыс беру жылдамырақ әрі ыңғайлы.",
+    "app_prompt_download": "Қолданбаны жүктеу",
+    "app_prompt_app_store": "App Store арқылы жүктеу",
+    "app_prompt_google_play": "Google Play арқылы жүктеу",
+    "app_prompt_later": "Кейін"
+  },
+  "track": {
+    "title": "Сапарды бақылау",
+    "public_tracking": "Жария сілтеме",
+    "access_limited": "Жария режимде кейбір деректер жасырын."
+  },
+  "tariffs": {
+    "econom": "Эконом",
+    "optimal": "Оптимал",
+    "comfort": "Комфорт",
+    "universal": "Универсал",
+    "minivan": "Минивэн"
+  },
+  "status": {
+    "searching": "Жүргізуші ізделуде",
+    "driver_assigned": "Жүргізуші тағайындалды",
+    "driver_arriving": "Жүргізуші сізге келе жатыр",
+    "driver_arrived": "Жүргізуші келді",
+    "ride_started": "Сапар басталды",
+    "ride_completed": "Сапар аяқталды",
+    "no_drivers": "Бос жүргізуші жоқ",
+    "cancelled": "Тапсырыс тоқтатылды",
+    "unknown": "Белгісіз статус"
+  },
+  "buttons": {
+    "continue": "Жалғастыру",
+    "back": "Артқа",
+    "cancel": "Болдырмау",
+    "submit": "Жіберу",
+    "save": "Сақтау",
+    "close": "Жабу",
+    "retry": "Қайта көру",
+    "logout": "Шығу",
+    "open_map": "Картаны ашу",
+    "share": "Бөлісу",
+    "copy_link": "Сілтемені көшіру",
+    "call_driver": "Жүргізушіге қоңырау шалу",
+    "order_again": "Қайта тапсырыс беру"
+  },
+  "errors": {
+    "generic": "Бір қате орын алды. Қайта көріңіз.",
+    "unauthorized": "Сессия аяқталды. Қайта кіріңіз.",
+    "network": "Желі қатесі. Интернетті тексеріңіз.",
+    "location_not_found": "Локация табылмады.",
+    "order_not_found": "Тапсырыс табылмады.",
+    "no_active_order": "Белсенді тапсырыс жоқ.",
+    "tariff_required": "Тарифті таңдаңыз.",
+    "max_distance": "Маршрут рұқсат етілген қашықтықтан асты.",
+    "phone_required": "Телефон нөмірі қажет.",
+    "telegram_auth_failed": "Telegram арқылы кіру сәтсіз аяқталды.",
+    "refresh_failed": "Сессияны жаңарту мүмкін болмады.",
+    "websocket_disconnected": "Байланыс үзілді. Қайта қосылуда...",
+    "websocket_reconnecting": "Байланыс үзілді. Әрекет {{attempt}} / {{max}}...",
+    "rate_limited": "Тым көп сұраныс. Бір минут күтіңіз.",
+    "offline": "Интернет байланысы жоқ"
+  },
+  "admin": {
+    "title": "APARU әкімші панелі",
+    "subtitle": "Локациялар, тарифтер және тапсырыстарды басқару",
+    "header_hint": "Қараңғы тақырып тек /admin бөлімінде қосулы",
+    "signed_in_as": "Кіру жасалды",
+    "saved": "Сақталды",
+    "nav": {
+      "locations": "Локациялар",
+      "tariffs": "Тарифтер",
+      "orders": "Тапсырыстар",
+      "analytics": "Аналитика"
+    },
+    "actions": {
+      "edit": "Өңдеу",
+      "download_qr": "QR",
+      "apply": "Қолдану",
+      "clear": "Тазалау",
+      "saving": "Сақталуда...",
+      "collapse_sidebar": "Бүйір панелін жинау",
+      "expand_sidebar": "Бүйір панелін ашу"
+    },
+    "states": {
+      "active": "Белсенді",
+      "inactive": "Белсенді емес"
+    },
+    "errors": {
+      "generic": "Деректерді жүктеу мүмкін болмады.",
+      "locations_load": "Локацияларды жүктеу мүмкін болмады.",
+      "location_save": "Локацияны сақтау мүмкін болмады.",
+      "location_toggle": "Локация күйін өзгерту мүмкін болмады.",
+      "qr_download": "QR-кодты жүктеу мүмкін болмады.",
+      "tariff_load": "Тариф конфигін жүктеу мүмкін болмады.",
+      "tariff_save": "Тарифтерді сақтау мүмкін болмады.",
+      "orders_load": "Тапсырыстарды жүктеу мүмкін болмады.",
+      "order_detail_load": "Тапсырыс мәліметін жүктеу мүмкін болмады.",
+      "analytics_load": "Аналитиканы жүктеу мүмкін болмады."
+    },
+    "locations": {
+      "page_title": "QR-локациялар",
+      "page_subtitle": "Сканерлеу және отырғызу нүктелері",
+      "add_location": "Локация қосу",
+      "new_location": "Жаңа локация",
+      "edit_location": "Локацияны өңдеу",
+      "required_fields": "Slug, атау және Hint RU міндетті.",
+      "map_hint": "Координатаны таңдау үшін картадан басыңыз",
+      "latitude": "Ендік",
+      "longitude": "Бойлық",
+      "slug_required": "Slug *",
+      "name_required": "Атауы *",
+      "hint_ru_required": "Hint RU *",
+      "hint_kz": "Hint KZ",
+      "hint_en": "Hint EN",
+      "active": "Белсенді",
+      "geocoding": "геокодтау...",
+      "empty_title": "Әзірге локациялар жоқ.",
+      "empty_subtitle": "Алғашқы локацияны құру үшін «Локация қосу» батырмасын басыңыз.",
+      "table": {
+        "slug": "Slug",
+        "name": "Атауы",
+        "coords": "Координаталар",
+        "orders": "Тапсырыстар",
+        "active": "Белсенді",
+        "actions": "Әрекеттер"
+      }
+    },
+    "tariffs": {
+      "page_title": "Тариф баптаулары",
+      "page_subtitle": "Сақталғаннан кейін өзгерістер бірден қолданылады",
+      "fields": {
+        "base_fare": "Базалық баға (₸)",
+        "base_km": "Базалық км",
+        "per_km": "1 км үшін (₸)",
+        "free_wait": "Тегін күту (мин)",
+        "wait_per_min": "Күту / мин (₸)",
+        "car_type": "Көлік түрі"
+      },
+      "global": {
+        "title": "Жалпы параметрлер",
+        "time_surcharge_after": "Үстеме уақыты (мин)",
+        "time_surcharge_per_min": "Үстеме / мин (₸)",
+        "max_distance": "Макс. қашықтық (км)",
+        "search_timeout": "Іздеу таймауты (сек)",
+        "driver_wait_timeout": "Жүргізушіні күту таймауты (мин)",
+        "surge_multiplier": "Сұраныс коэффициенті"
+      }
+    },
+    "orders": {
+      "page_title": "Тапсырыстар",
+      "page_subtitle": "Сүзу, қарау және тапсырыс мәліметтері",
+      "filters_title": "Сүзгілер",
+      "filters_shareable": "Сүзгілер URL-де сақталады",
+      "status": "Статус",
+      "tariff": "Тариф",
+      "location": "Локация",
+      "from": "Күні бастап",
+      "to": "Күні дейін",
+      "all": "Барлығы",
+      "empty": "Тапсырыстар табылмады.",
+      "count": "{{count}} тапсырыс",
+      "detail": {
+        "title": "Тапсырыс",
+        "status": "Статус",
+        "tariff": "Тариф",
+        "location": "Локация",
+        "price": "Бағасы",
+        "point_a": "A нүктесі",
+        "point_b": "B нүктесі",
+        "created": "Құрылды",
+        "completed": "Аяқталды",
+        "timeline": "Оқиғалар таспасы",
+        "no_events": "Оқиғалар жоқ."
+      }
+    },
+    "analytics": {
+      "page_title": "Аналитика және жылу картасы",
+      "page_subtitle": "Тапсырыстар қорытындысы және Metabase дашборды",
+      "orders_today": "Бүгінгі тапсырыстар",
+      "orders_week": "7 күндегі тапсырыстар",
+      "avg_price": "Орташа чек",
+      "avg_wait": "Орташа күту",
+      "avg_wait_sub": "іздеуден жүргізуші тағайындауға дейін",
+      "metabase_title": "Metabase графиктері",
+      "secure_embed": "Қауіпсіз embed",
+      "open_dashboard": "Дашбордты ашу",
+      "metabase_not_configured": "Metabase әлі бапталмаған.",
+      "metabase_embed_failed": "Кірістірілген дашбордты көрсету мүмкін болмады. Оны жаңа бетте ашыңыз.",
+      "metabase_setup_hint": ".env ішінде METABASE_SITE_URL, METABASE_EMBED_SECRET және METABASE_DASHBOARD_ID айнымалыларын толтырыңыз.",
+      "heatmap_title": "Отырғызу нүктелерінің жылу картасы",
+      "heatmap_fallback": "Жеңілдетілген көрініс",
+      "no_heatmap_data": "Әзірге жылу картасына арналған дерек жоқ.",
+      "density_title": "Координаталар бойынша тығыздық"
+    }
+  },
+  "labels": {
+    "phone": "Телефон",
+    "address": "Мекенжай",
+    "price": "Баға",
+    "distance": "Қашықтық",
+    "time": "Уақыт",
+    "driver": "Жүргізуші",
+    "car": "Көлік",
+    "plate": "Нөмір",
+    "rating": "Рейтинг",
+    "comment": "Пікір",
+    "created_at": "Құрылды",
+    "updated_at": "Жаңартылды"
+  },
+  "common": {
+    "next": "Келесі",
+    "skip": "Өткізу",
+    "loading": "Жүктелуде..."
+  },
+  "language": {
+    "select": "Тіл",
+    "ru": "РУ",
+    "kz": "ҚЗ",
+    "en": "EN",
+    "zh": "中文"
+  },
+  "messages": {
+    "order_created": "Тапсырыс сәтті құрылды.",
+    "order_cancelled": "Тапсырыс тоқтатылды.",
+    "rating_saved": "Бағалауыңызға рахмет!",
+    "link_copied": "Сілтеме көшірілді."
+  },
+  "notifications": {
+    "title": "APARU",
+    "permission_title": "Хабарландыруларды қосыңыз",
+    "permission_subtitle": "Сапар күйі өзгергенде хабарлама жібереміз.",
+    "permission_allow": "Рұқсат беру",
+    "permission_later": "Кейін",
+    "order_status_changed": "Тапсырыс күйі: {{status}}"
+  }
+}

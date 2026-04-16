@@ -1,0 +1,322 @@
+{
+  "app": {
+    "name": "APARU QR Taxi",
+    "loading": "Loading..."
+  },
+  "scan_prompt": {
+    "title": "Scan the QR code",
+    "subtitle": "Order a taxi in seconds",
+    "description": "Open your camera and point it at the QR code near the pickup point.",
+    "hint": "Ordering is unavailable without a QR code."
+  },
+  "onboarding": {
+    "title": "Welcome to APARU",
+    "slides": {
+      "welcome_title": "Taxi by QR",
+      "welcome_description": "Scan a code at the exit and request a ride instantly.",
+      "pickup_title": "Point A is pre-filled",
+      "pickup_description": "We automatically set your pickup place from the QR location.",
+      "tracking_title": "Ride tracking",
+      "tracking_description": "Follow ride status, ETA, and driver location in real time."
+    },
+    "slide1": {
+      "title": "Welcome to APARU",
+      "description": "Order a taxi on the spot instantly."
+    },
+    "slide2": {
+      "title": "Scan and ride",
+      "description": "No long waiting. The car will arrive at the specified location."
+    },
+    "slide3": {
+      "title": "One last step",
+      "description": "Share your phone number so the driver can reach you."
+    },
+    "phone_title": "Share your phone number",
+    "phone_description": "The driver needs it to contact you.",
+    "request_contact": "Share number via Telegram",
+    "share_contact": "Share contact",
+    "prompt_phone": "Enter your phone number"
+  },
+  "order": {
+    "title": "Create order",
+    "point_a": "Point A",
+    "point_b": "Point B",
+    "point_b_placeholder": "Where are you going?",
+    "search_destination": "Search address",
+    "no_destination": "Without point B",
+    "taximeter": "By taximeter",
+    "tariff": "Tariff",
+    "sedan_group": "Sedan",
+    "estimated_price": "Estimated price",
+    "create_order": "Request taxi",
+    "active_order_notice": "You already have an active order.",
+    "no_results": "Nothing found",
+    "tell_driver": "Tell the driver",
+    "specify_destination": "Enter destination",
+    "phone_prompt": "Enter your phone number for the driver",
+    "order_button": "Order",
+    "by_taximeter": "By taximeter",
+    "cash": "Cash",
+    "kaspi": "Kaspi QR",
+    "max_distance_warning": "Too far. Maximum 30 km.",
+    "location_error": "Failed to load location",
+    "note_placeholder": "Note",
+    "stop_placeholder": "Stop {{number}}"
+  },
+  "tariff_info": {
+    "base_fare": "Base fare",
+    "per_km": "Per km",
+    "per_min": "Surcharge / min (after 12)",
+    "from": "from"
+  },
+  "ride": {
+    "title": "Ride",
+    "driver_on_way": "Driver is on the way",
+    "eta": "Arrives in {{minutes}} min",
+    "share_trip": "Share ride",
+    "cancel_confirm": "Are you sure you want to cancel the order?"
+  },
+  "completed": {
+    "title": "Ride completed",
+    "final_price": "Final price",
+    "rate_driver": "Rate the driver",
+    "comment_placeholder": "Comment (optional)",
+    "thanks": "Thanks for choosing APARU",
+    "order_again": "Order again",
+    "wechat_app_prompt": "If convenient, you can install the APARU app for an even faster experience.",
+    "app_prompt_title": "Install the APARU app",
+    "app_prompt_subtitle": "Ordering is faster and more convenient in the app.",
+    "app_prompt_download": "Download app",
+    "app_prompt_app_store": "Download on the App Store",
+    "app_prompt_google_play": "Get it on Google Play",
+    "app_prompt_later": "Later"
+  },
+  "track": {
+    "title": "Ride tracking",
+    "public_tracking": "Public link",
+    "access_limited": "Some data is hidden in public mode."
+  },
+  "tariffs": {
+    "econom": "Economy",
+    "optimal": "Optimal",
+    "comfort": "Comfort",
+    "universal": "Universal",
+    "minivan": "Minivan"
+  },
+  "status": {
+    "searching": "Searching for driver",
+    "driver_assigned": "Driver assigned",
+    "driver_arriving": "Driver is arriving",
+    "driver_arrived": "Driver arrived",
+    "ride_started": "Ride started",
+    "ride_completed": "Ride completed",
+    "no_drivers": "No available drivers",
+    "cancelled": "Order cancelled",
+    "unknown": "Unknown status"
+  },
+  "buttons": {
+    "continue": "Continue",
+    "back": "Back",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "save": "Save",
+    "close": "Close",
+    "retry": "Retry",
+    "logout": "Log out",
+    "open_map": "Open map",
+    "share": "Share",
+    "copy_link": "Copy link",
+    "call_driver": "Call driver",
+    "order_again": "Order again"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "unauthorized": "Session expired. Please sign in again.",
+    "network": "Network issue. Check your internet connection.",
+    "location_not_found": "Location not found.",
+    "order_not_found": "Order not found.",
+    "no_active_order": "No active order.",
+    "tariff_required": "Please select a tariff.",
+    "max_distance": "Route exceeds maximum allowed distance.",
+    "phone_required": "Phone number is required.",
+    "telegram_auth_failed": "Telegram authentication failed.",
+    "refresh_failed": "Unable to refresh session.",
+    "websocket_disconnected": "Connection lost. Reconnecting...",
+    "websocket_reconnecting": "Connection lost. Attempt {{attempt}} of {{max}}...",
+    "rate_limited": "Too many requests. Please wait a minute.",
+    "offline": "No internet connection"
+  },
+  "admin": {
+    "title": "APARU Admin Panel",
+    "subtitle": "Manage locations, tariffs, and orders",
+    "header_hint": "Dark theme is enabled only for /admin",
+    "signed_in_as": "Signed in as",
+    "saved": "Saved",
+    "nav": {
+      "locations": "Locations",
+      "tariffs": "Tariffs",
+      "orders": "Orders",
+      "analytics": "Analytics"
+    },
+    "actions": {
+      "edit": "Edit",
+      "download_qr": "QR",
+      "apply": "Apply",
+      "clear": "Clear",
+      "saving": "Saving...",
+      "collapse_sidebar": "Collapse sidebar",
+      "expand_sidebar": "Expand sidebar"
+    },
+    "states": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "errors": {
+      "generic": "Failed to load data.",
+      "locations_load": "Failed to load locations.",
+      "location_save": "Failed to save location.",
+      "location_toggle": "Failed to toggle location status.",
+      "qr_download": "Failed to download QR code.",
+      "tariff_load": "Failed to load tariff configuration.",
+      "tariff_save": "Failed to save tariffs.",
+      "orders_load": "Failed to load orders.",
+      "order_detail_load": "Failed to load order details.",
+      "analytics_load": "Failed to load analytics."
+    },
+    "locations": {
+      "page_title": "QR Locations",
+      "page_subtitle": "Scan and pickup points",
+      "add_location": "Add location",
+      "new_location": "New location",
+      "edit_location": "Edit location",
+      "required_fields": "Slug, name, and Hint RU are required.",
+      "map_hint": "Click the map to set coordinates",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "slug_required": "Slug *",
+      "name_required": "Name *",
+      "hint_ru_required": "Hint RU *",
+      "hint_kz": "Hint KZ",
+      "hint_en": "Hint EN",
+      "active": "Active",
+      "geocoding": "geocoding...",
+      "empty_title": "No locations yet.",
+      "empty_subtitle": "Click “Add location” to create the first one.",
+      "table": {
+        "slug": "Slug",
+        "name": "Name",
+        "coords": "Coords",
+        "orders": "Orders",
+        "active": "Active",
+        "actions": "Actions"
+      }
+    },
+    "tariffs": {
+      "page_title": "Tariff configuration",
+      "page_subtitle": "Changes are applied immediately after save",
+      "fields": {
+        "base_fare": "Base fare (₸)",
+        "base_km": "Base km",
+        "per_km": "Per km (₸)",
+        "free_wait": "Free wait (min)",
+        "wait_per_min": "Wait / min (₸)",
+        "car_type": "Car type"
+      },
+      "global": {
+        "title": "Global settings",
+        "time_surcharge_after": "Surcharge after (min)",
+        "time_surcharge_per_min": "Surcharge / min (₸)",
+        "max_distance": "Max distance (km)",
+        "search_timeout": "Search timeout (sec)",
+        "driver_wait_timeout": "Driver wait timeout (min)",
+        "surge_multiplier": "Surge multiplier"
+      }
+    },
+    "orders": {
+      "page_title": "Orders",
+      "page_subtitle": "Filter, review, and inspect order details",
+      "filters_title": "Filters",
+      "filters_shareable": "Filters are saved in URL",
+      "status": "Status",
+      "tariff": "Tariff",
+      "location": "Location",
+      "from": "From",
+      "to": "To",
+      "all": "All",
+      "empty": "No orders found.",
+      "count": "{{count}} orders",
+      "detail": {
+        "title": "Order",
+        "status": "Status",
+        "tariff": "Tariff",
+        "location": "Location",
+        "price": "Price",
+        "point_a": "Point A",
+        "point_b": "Point B",
+        "created": "Created",
+        "completed": "Completed",
+        "timeline": "Event timeline",
+        "no_events": "No events recorded."
+      }
+    },
+    "analytics": {
+      "page_title": "Analytics & heatmap",
+      "page_subtitle": "Operational summary and Metabase dashboard",
+      "orders_today": "Orders today",
+      "orders_week": "Orders in 7 days",
+      "avg_price": "Average check",
+      "avg_wait": "Average wait",
+      "avg_wait_sub": "from search to driver assignment",
+      "metabase_title": "Metabase charts",
+      "secure_embed": "Secure embed",
+      "open_dashboard": "Open dashboard",
+      "metabase_not_configured": "Metabase is not configured yet.",
+      "metabase_embed_failed": "Failed to render the embedded dashboard. Open it in a new tab.",
+      "metabase_setup_hint": "Set METABASE_SITE_URL, METABASE_EMBED_SECRET and METABASE_DASHBOARD_ID in .env.",
+      "heatmap_title": "Pickup point heatmap",
+      "heatmap_fallback": "Fallback view",
+      "no_heatmap_data": "No pickup data for the selected period yet.",
+      "density_title": "Density by coordinates"
+    }
+  },
+  "labels": {
+    "phone": "Phone",
+    "address": "Address",
+    "price": "Price",
+    "distance": "Distance",
+    "time": "Time",
+    "driver": "Driver",
+    "car": "Car",
+    "plate": "Plate",
+    "rating": "Rating",
+    "comment": "Comment",
+    "created_at": "Created at",
+    "updated_at": "Updated at"
+  },
+  "common": {
+    "next": "Next",
+    "skip": "Skip",
+    "loading": "Loading..."
+  },
+  "language": {
+    "select": "Language",
+    "ru": "РУ",
+    "kz": "ҚЗ",
+    "en": "EN",
+    "zh": "中文"
+  },
+  "messages": {
+    "order_created": "Order created successfully.",
+    "order_cancelled": "Order cancelled.",
+    "rating_saved": "Thanks for your rating!",
+    "link_copied": "Link copied."
+  },
+  "notifications": {
+    "title": "APARU",
+    "permission_title": "Enable notifications",
+    "permission_subtitle": "We will send ride status updates.",
+    "permission_allow": "Allow",
+    "permission_later": "Later",
+    "order_status_changed": "Order status: {{status}}"
+  }
+}

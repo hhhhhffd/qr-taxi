@@ -1,0 +1,322 @@
+{
+  "app": {
+    "name": "APARU QR Taxi",
+    "loading": "Загрузка..."
+  },
+  "scan_prompt": {
+    "title": "Отсканируйте QR-код",
+    "subtitle": "Закажите такси за пару секунд",
+    "description": "Откройте камеру и наведите ее на QR-код у точки посадки.",
+    "hint": "Без QR-кода заказ недоступен."
+  },
+  "onboarding": {
+    "title": "Добро пожаловать в APARU",
+    "slides": {
+      "welcome_title": "Такси по QR",
+      "welcome_description": "Сканируйте код у выхода и сразу вызывайте машину.",
+      "pickup_title": "Точка А уже определена",
+      "pickup_description": "Мы автоматически подставим место посадки из QR-локации.",
+      "tracking_title": "Контроль поездки",
+      "tracking_description": "Следите за статусом, ETA и местоположением водителя в реальном времени."
+    },
+    "slide1": {
+      "title": "Добро пожаловать в APARU",
+      "description": "Быстрый заказ такси прямо на месте."
+    },
+    "slide2": {
+      "title": "Сканируйте и едьте",
+      "description": "Никаких долгих ожиданий. Машина приедет к указанному месту."
+    },
+    "slide3": {
+      "title": "Остался один шаг",
+      "description": "Поделитесь номером телефона для связи с водителем."
+    },
+    "phone_title": "Укажите номер телефона",
+    "phone_description": "Он нужен водителю для связи с вами.",
+    "request_contact": "Поделиться номером через Telegram",
+    "share_contact": "Поделиться контактом",
+    "prompt_phone": "Введите ваш номер телефона"
+  },
+  "order": {
+    "title": "Оформление заказа",
+    "point_a": "Точка А",
+    "point_b": "Точка Б",
+    "point_b_placeholder": "Куда поедем?",
+    "search_destination": "Поиск адреса",
+    "no_destination": "Без точки Б",
+    "taximeter": "По таксометру",
+    "tariff": "Тариф",
+    "sedan_group": "Легковушка",
+    "estimated_price": "Ориентировочная стоимость",
+    "create_order": "Вызвать такси",
+    "active_order_notice": "У вас уже есть активный заказ.",
+    "no_results": "Ничего не найдено",
+    "tell_driver": "Скажу водителю",
+    "specify_destination": "Указать адрес",
+    "phone_prompt": "Введите номер телефона для связи с водителем",
+    "order_button": "Заказать",
+    "by_taximeter": "По таксометру",
+    "cash": "Наличные",
+    "kaspi": "Kaspi QR",
+    "max_distance_warning": "Слишком большое расстояние. Максимум 30 км.",
+    "location_error": "Ошибка загрузки",
+    "note_placeholder": "Примечание",
+    "stop_placeholder": "Остановка {{number}}"
+  },
+  "tariff_info": {
+    "base_fare": "Базовая ставка",
+    "per_km": "За км",
+    "per_min": "Надбавка / мин (после 12)",
+    "from": "от"
+  },
+  "ride": {
+    "title": "Поездка",
+    "driver_on_way": "Водитель в пути",
+    "eta": "Прибытие через {{minutes}} мин",
+    "share_trip": "Поделиться поездкой",
+    "cancel_confirm": "Вы уверены, что хотите отменить заказ?"
+  },
+  "completed": {
+    "title": "Поездка завершена",
+    "final_price": "Итоговая стоимость",
+    "rate_driver": "Оцените водителя",
+    "comment_placeholder": "Комментарий (необязательно)",
+    "thanks": "Спасибо, что выбрали APARU",
+    "order_again": "Заказать снова",
+    "wechat_app_prompt": "Если будет удобно, установите приложение APARU — так заказывать еще быстрее.",
+    "app_prompt_title": "Установите приложение APARU",
+    "app_prompt_subtitle": "В приложении заказывать быстрее и удобнее.",
+    "app_prompt_download": "Скачать приложение",
+    "app_prompt_app_store": "Скачать в App Store",
+    "app_prompt_google_play": "Скачать в Google Play",
+    "app_prompt_later": "Позже"
+  },
+  "track": {
+    "title": "Отслеживание поездки",
+    "public_tracking": "Публичная ссылка",
+    "access_limited": "Часть данных скрыта в публичном режиме."
+  },
+  "tariffs": {
+    "econom": "Эконом",
+    "optimal": "Оптимал",
+    "comfort": "Комфорт",
+    "universal": "Универсал",
+    "minivan": "Минивэн"
+  },
+  "status": {
+    "searching": "Ищем водителя",
+    "driver_assigned": "Водитель назначен",
+    "driver_arriving": "Водитель едет к вам",
+    "driver_arrived": "Водитель прибыл",
+    "ride_started": "Поездка началась",
+    "ride_completed": "Поездка завершена",
+    "no_drivers": "Нет свободных водителей",
+    "cancelled": "Заказ отменен",
+    "unknown": "Неизвестный статус"
+  },
+  "buttons": {
+    "continue": "Продолжить",
+    "back": "Назад",
+    "cancel": "Отменить",
+    "submit": "Отправить",
+    "save": "Сохранить",
+    "close": "Закрыть",
+    "retry": "Повторить",
+    "logout": "Выйти",
+    "open_map": "Открыть карту",
+    "share": "Поделиться",
+    "copy_link": "Копировать ссылку",
+    "call_driver": "Позвонить водителю",
+    "order_again": "Заказать снова"
+  },
+  "errors": {
+    "generic": "Что-то пошло не так. Попробуйте еще раз.",
+    "unauthorized": "Сессия истекла. Войдите снова.",
+    "network": "Проблема с сетью. Проверьте интернет.",
+    "location_not_found": "Локация не найдена.",
+    "order_not_found": "Заказ не найден.",
+    "no_active_order": "Активный заказ отсутствует.",
+    "tariff_required": "Выберите тариф.",
+    "max_distance": "Маршрут превышает допустимую дистанцию.",
+    "phone_required": "Необходимо предоставить номер телефона.",
+    "telegram_auth_failed": "Не удалось авторизоваться через Telegram.",
+    "refresh_failed": "Не удалось обновить сессию.",
+    "websocket_disconnected": "Соединение потеряно. Переподключаемся...",
+    "websocket_reconnecting": "Соединение потеряно. Попытка {{attempt}} из {{max}}...",
+    "rate_limited": "Слишком много запросов. Подождите минуту.",
+    "offline": "Нет интернет-соединения"
+  },
+  "admin": {
+    "title": "Админ-панель APARU",
+    "subtitle": "Управление локациями, тарифами и заказами",
+    "header_hint": "Тёмная тема включена только для /admin",
+    "signed_in_as": "Вы вошли как",
+    "saved": "Сохранено",
+    "nav": {
+      "locations": "Локации",
+      "tariffs": "Тарифы",
+      "orders": "Заказы",
+      "analytics": "Аналитика"
+    },
+    "actions": {
+      "edit": "Редактировать",
+      "download_qr": "QR",
+      "apply": "Применить",
+      "clear": "Сбросить",
+      "saving": "Сохраняем...",
+      "collapse_sidebar": "Свернуть боковую панель",
+      "expand_sidebar": "Развернуть боковую панель"
+    },
+    "states": {
+      "active": "Активна",
+      "inactive": "Неактивна"
+    },
+    "errors": {
+      "generic": "Не удалось загрузить данные.",
+      "locations_load": "Не удалось загрузить локации.",
+      "location_save": "Не удалось сохранить локацию.",
+      "location_toggle": "Не удалось изменить статус локации.",
+      "qr_download": "Не удалось скачать QR-код.",
+      "tariff_load": "Не удалось загрузить конфиг тарифов.",
+      "tariff_save": "Не удалось сохранить тарифы.",
+      "orders_load": "Не удалось загрузить заказы.",
+      "order_detail_load": "Не удалось загрузить детали заказа.",
+      "analytics_load": "Не удалось загрузить аналитику."
+    },
+    "locations": {
+      "page_title": "QR-локации",
+      "page_subtitle": "Точки сканирования и посадки",
+      "add_location": "Добавить локацию",
+      "new_location": "Новая локация",
+      "edit_location": "Редактирование локации",
+      "required_fields": "Slug, название и Подсказка RU обязательны.",
+      "map_hint": "Кликните по карте, чтобы выбрать координаты",
+      "latitude": "Широта",
+      "longitude": "Долгота",
+      "slug_required": "Slug *",
+      "name_required": "Название *",
+      "hint_ru_required": "Подсказка RU *",
+      "hint_kz": "Подсказка KZ",
+      "hint_en": "Подсказка EN",
+      "active": "Активна",
+      "geocoding": "геокодируем...",
+      "empty_title": "Локации пока не созданы.",
+      "empty_subtitle": "Нажмите «Добавить локацию», чтобы создать первую.",
+      "table": {
+        "slug": "Slug",
+        "name": "Название",
+        "coords": "Координаты",
+        "orders": "Заказы",
+        "active": "Активна",
+        "actions": "Действия"
+      }
+    },
+    "tariffs": {
+      "page_title": "Настройка тарифов",
+      "page_subtitle": "Изменения применяются сразу после сохранения",
+      "fields": {
+        "base_fare": "Базовая ставка (₸)",
+        "base_km": "Базовые км",
+        "per_km": "За км (₸)",
+        "free_wait": "Бесплатное ожидание (мин)",
+        "wait_per_min": "Ожидание / мин (₸)",
+        "car_type": "Тип авто"
+      },
+      "global": {
+        "title": "Глобальные параметры",
+        "time_surcharge_after": "Надбавка после (мин)",
+        "time_surcharge_per_min": "Надбавка / мин (₸)",
+        "max_distance": "Макс. дистанция (км)",
+        "search_timeout": "Таймаут поиска (сек)",
+        "driver_wait_timeout": "Таймаут ожидания водителя (мин)",
+        "surge_multiplier": "Коэффициент спроса"
+      }
+    },
+    "orders": {
+      "page_title": "Заказы",
+      "page_subtitle": "Фильтрация, просмотр и детальная карточка заказа",
+      "filters_title": "Фильтры",
+      "filters_shareable": "Фильтры сохраняются в URL",
+      "status": "Статус",
+      "tariff": "Тариф",
+      "location": "Локация",
+      "from": "Дата с",
+      "to": "Дата по",
+      "all": "Все",
+      "empty": "Заказы не найдены.",
+      "count": "{{count}} заказов",
+      "detail": {
+        "title": "Заказ",
+        "status": "Статус",
+        "tariff": "Тариф",
+        "location": "Локация",
+        "price": "Стоимость",
+        "point_a": "Точка A",
+        "point_b": "Точка B",
+        "created": "Создан",
+        "completed": "Завершён",
+        "timeline": "Лента событий",
+        "no_events": "События отсутствуют."
+      }
+    },
+    "analytics": {
+      "page_title": "Аналитика и тепловая карта",
+      "page_subtitle": "Сводка по заказам и дашборд Metabase",
+      "orders_today": "Заказы сегодня",
+      "orders_week": "Заказы за 7 дней",
+      "avg_price": "Средний чек",
+      "avg_wait": "Среднее ожидание",
+      "avg_wait_sub": "от поиска до назначения водителя",
+      "metabase_title": "Графики Metabase",
+      "secure_embed": "Безопасный embed",
+      "open_dashboard": "Открыть дашборд",
+      "metabase_not_configured": "Metabase ещё не настроен.",
+      "metabase_embed_failed": "Не удалось отобразить встроенный дашборд. Откройте его в новой вкладке.",
+      "metabase_setup_hint": "Укажите METABASE_SITE_URL, METABASE_EMBED_SECRET и METABASE_DASHBOARD_ID в .env.",
+      "heatmap_title": "Тепловая карта точек посадки",
+      "heatmap_fallback": "Упрощённый режим",
+      "no_heatmap_data": "Пока нет данных для тепловой карты.",
+      "density_title": "Плотность по координатам"
+    }
+  },
+  "labels": {
+    "phone": "Телефон",
+    "address": "Адрес",
+    "price": "Цена",
+    "distance": "Дистанция",
+    "time": "Время",
+    "driver": "Водитель",
+    "car": "Автомобиль",
+    "plate": "Номер",
+    "rating": "Рейтинг",
+    "comment": "Комментарий",
+    "created_at": "Создано",
+    "updated_at": "Обновлено"
+  },
+  "common": {
+    "next": "Далее",
+    "skip": "Пропустить",
+    "loading": "Загрузка..."
+  },
+  "language": {
+    "select": "Язык",
+    "ru": "РУ",
+    "kz": "ҚЗ",
+    "en": "EN",
+    "zh": "中文"
+  },
+  "messages": {
+    "order_created": "Заказ успешно создан.",
+    "order_cancelled": "Заказ отменен.",
+    "rating_saved": "Спасибо за оценку!",
+    "link_copied": "Ссылка скопирована."
+  },
+  "notifications": {
+    "title": "APARU",
+    "permission_title": "Разрешите уведомления",
+    "permission_subtitle": "Мы будем присылать обновления статуса поездки.",
+    "permission_allow": "Разрешить",
+    "permission_later": "Позже",
+    "order_status_changed": "Статус заказа: {{status}}"
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "app": {
+    "name": "APARU QR 打车",
+    "loading": "加载中..."
+  },
+  "scan_prompt": {
+    "title": "扫描二维码",
+    "subtitle": "几秒内叫车",
+    "description": "打开相机，对准上车点的二维码。",
+    "hint": "没有二维码无法下单。"
+  },
+  "onboarding": {
+    "title": "欢迎使用 APARU",
+    "slides": {
+      "welcome_title": "二维码叫车",
+      "welcome_description": "扫描出口处的二维码，立即叫车。",
+      "pickup_title": "A点已自动定位",
+      "pickup_description": "系统将自动从二维码位置填写上车地点。",
+      "tracking_title": "行程追踪",
+      "tracking_description": "实时查看行程状态、预计到达时间和司机位置。"
+    },
+    "slide1": {
+      "title": "欢迎使用 APARU",
+      "description": "在原地快速下打车订单。"
+    },
+    "slide2": {
+      "title": "扫码出发",
+      "description": "无需久等，车辆会到达指定地点。"
+    },
+    "slide3": {
+      "title": "最后一步",
+      "description": "分享您的电话号码，以便司机联系您。"
+    },
+    "phone_title": "提供电话号码",
+    "phone_description": "司机需要联系您。",
+    "request_contact": "通过微信分享号码",
+    "share_contact": "分享联系方式",
+    "prompt_phone": "请输入您的电话号码"
+  },
+  "order": {
+    "title": "创建订单",
+    "point_a": "A点",
+    "point_b": "B点",
+    "point_b_placeholder": "您要去哪里？",
+    "search_destination": "搜索地址",
+    "no_destination": "不设B点",
+    "taximeter": "计价器",
+    "tariff": "套餐",
+    "sedan_group": "轿车",
+    "estimated_price": "预计价格",
+    "create_order": "叫车",
+    "active_order_notice": "您已有一个活跃订单。",
+    "no_results": "未找到结果",
+    "tell_driver": "告诉司机",
+    "specify_destination": "输入目的地",
+    "phone_prompt": "请输入电话号码以便司机联系",
+    "order_button": "下单",
+    "by_taximeter": "按计价器",
+    "cash": "现金",
+    "kaspi": "Kaspi QR",
+    "max_distance_warning": "距离过远，最大30公里。",
+    "location_error": "加载位置失败",
+    "note_placeholder": "备注",
+    "stop_placeholder": "途经点 {{number}}"
+  },
+  "tariff_info": {
+    "base_fare": "起步价",
+    "per_km": "每公里",
+    "per_min": "每分钟附加（12分钟后）",
+    "from": "起"
+  },
+  "ride": {
+    "title": "行程",
+    "driver_on_way": "司机在路上",
+    "eta": "预计{{minutes}}分钟后到达",
+    "share_trip": "分享行程",
+    "cancel_confirm": "您确定要取消订单吗？"
+  },
+  "completed": {
+    "title": "行程已完成",
+    "final_price": "最终价格",
+    "rate_driver": "评价司机",
+    "comment_placeholder": "评论（可选）",
+    "thanks": "感谢选择 APARU",
+    "order_again": "再次下单",
+    "wechat_app_prompt": "如果方便，您可以安装 APARU 应用，叫车会更快捷。",
+    "app_prompt_title": "安装 APARU 应用",
+    "app_prompt_subtitle": "在应用中叫车更快、更方便。",
+    "app_prompt_download": "下载应用",
+    "app_prompt_app_store": "前往 App Store 下载",
+    "app_prompt_google_play": "前往 Google Play 下载",
+    "app_prompt_later": "稍后"
+  },
+  "track": {
+    "title": "追踪行程",
+    "public_tracking": "公开链接",
+    "access_limited": "公开模式下部分数据已隐藏。"
+  },
+  "tariffs": {
+    "econom": "经济型",
+    "optimal": "标准型",
+    "comfort": "舒适型",
+    "universal": "通用型",
+    "minivan": "商务车"
+  },
+  "status": {
+    "searching": "正在寻找司机",
+    "driver_assigned": "司机已分配",
+    "driver_arriving": "司机正在赶来",
+    "driver_arrived": "司机已到达",
+    "ride_started": "行程已开始",
+    "ride_completed": "行程已完成",
+    "no_drivers": "暂无空闲司机",
+    "cancelled": "订单已取消",
+    "unknown": "未知状态"
+  },
+  "buttons": {
+    "continue": "继续",
+    "back": "返回",
+    "cancel": "取消",
+    "submit": "提交",
+    "save": "保存",
+    "close": "关闭",
+    "retry": "重试",
+    "logout": "退出",
+    "open_map": "打开地图",
+    "share": "分享",
+    "copy_link": "复制链接",
+    "call_driver": "拨打司机电话",
+    "order_again": "再次下单"
+  },
+  "errors": {
+    "generic": "出错了，请重试。",
+    "unauthorized": "会话已过期，请重新登录。",
+    "network": "网络问题，请检查网络连接。",
+    "location_not_found": "未找到位置。",
+    "order_not_found": "未找到订单。",
+    "no_active_order": "没有活跃订单。",
+    "tariff_required": "请选择套餐。",
+    "max_distance": "路线超出最大允许距离。",
+    "phone_required": "需要提供电话号码。",
+    "telegram_auth_failed": "Telegram 认证失败。",
+    "refresh_failed": "无法刷新会话。",
+    "websocket_disconnected": "连接断开，正在重连...",
+    "websocket_reconnecting": "连接断开，第{{attempt}}/{{max}}次尝试...",
+    "rate_limited": "请求过多，请稍后一分钟再试。",
+    "offline": "无网络连接"
+  },
+  "admin": {
+    "title": "APARU 管理面板",
+    "subtitle": "管理地点、套餐与订单",
+    "header_hint": "深色主题仅在 /admin 启用",
+    "signed_in_as": "当前登录",
+    "saved": "已保存",
+    "nav": {
+      "locations": "地点",
+      "tariffs": "套餐",
+      "orders": "订单",
+      "analytics": "分析"
+    },
+    "actions": {
+      "edit": "编辑",
+      "download_qr": "QR",
+      "apply": "应用",
+      "clear": "清空",
+      "saving": "保存中..."
+    },
+    "states": {
+      "active": "启用",
+      "inactive": "停用"
+    },
+    "errors": {
+      "generic": "加载数据失败。",
+      "locations_load": "加载地点失败。",
+      "location_save": "保存地点失败。",
+      "location_toggle": "切换地点状态失败。",
+      "qr_download": "下载二维码失败。",
+      "tariff_load": "加载套餐配置失败。",
+      "tariff_save": "保存套餐失败。",
+      "orders_load": "加载订单失败。",
+      "order_detail_load": "加载订单详情失败。",
+      "analytics_load": "加载分析数据失败。"
+    },
+    "locations": {
+      "page_title": "二维码地点",
+      "page_subtitle": "扫码与上车点管理",
+      "add_location": "添加地点",
+      "new_location": "新建地点",
+      "edit_location": "编辑地点",
+      "required_fields": "Slug、名称和 Hint RU 为必填项。",
+      "map_hint": "点击地图选择坐标",
+      "latitude": "纬度",
+      "longitude": "经度",
+      "slug_required": "Slug *",
+      "name_required": "名称 *",
+      "hint_ru_required": "Hint RU *",
+      "hint_kz": "Hint KZ",
+      "hint_en": "Hint EN",
+      "active": "启用",
+      "geocoding": "地理编码中...",
+      "empty_title": "暂无地点。",
+      "empty_subtitle": "点击“添加地点”创建第一个地点。",
+      "table": {
+        "slug": "Slug",
+        "name": "名称",
+        "coords": "坐标",
+        "orders": "订单",
+        "active": "启用",
+        "actions": "操作"
+      }
+    },
+    "tariffs": {
+      "page_title": "套餐配置",
+      "page_subtitle": "保存后立即生效",
+      "fields": {
+        "base_fare": "起步价 (₸)",
+        "base_km": "基础公里",
+        "per_km": "每公里 (₸)",
+        "free_wait": "免费等待 (分钟)",
+        "wait_per_min": "等待 / 分钟 (₸)",
+        "car_type": "车型"
+      },
+      "global": {
+        "title": "全局参数",
+        "time_surcharge_after": "加价开始时间 (分钟)",
+        "time_surcharge_per_min": "每分钟加价 (₸)",
+        "max_distance": "最大距离 (公里)",
+        "search_timeout": "搜索超时 (秒)",
+        "driver_wait_timeout": "等待司机超时 (分钟)",
+        "surge_multiplier": "高峰系数"
+      }
+    },
+    "orders": {
+      "page_title": "订单",
+      "page_subtitle": "筛选、查看与订单详情",
+      "filters_title": "筛选",
+      "filters_shareable": "筛选条件会保存到 URL",
+      "status": "状态",
+      "tariff": "套餐",
+      "location": "地点",
+      "from": "开始",
+      "to": "结束",
+      "all": "全部",
+      "empty": "未找到订单。",
+      "count": "{{count}} 条订单",
+      "detail": {
+        "title": "订单",
+        "status": "状态",
+        "tariff": "套餐",
+        "location": "地点",
+        "price": "价格",
+        "point_a": "A 点",
+        "point_b": "B 点",
+        "created": "创建时间",
+        "completed": "完成时间",
+        "timeline": "事件时间线",
+        "no_events": "暂无事件。"
+      }
+    },
+    "analytics": {
+      "page_title": "分析与热力图",
+      "page_subtitle": "订单汇总与 Metabase 仪表盘",
+      "orders_today": "今日订单",
+      "orders_week": "近 7 天订单",
+      "avg_price": "平均客单价",
+      "avg_wait": "平均等待",
+      "avg_wait_sub": "从搜索到分配司机",
+      "metabase_title": "Metabase 图表",
+      "secure_embed": "安全嵌入",
+      "metabase_not_configured": "Metabase 尚未配置。",
+      "metabase_setup_hint": "请在 .env 中配置 METABASE_SITE_URL、METABASE_EMBED_SECRET 和 METABASE_DASHBOARD_ID。",
+      "heatmap_title": "上车点热力图",
+      "density_title": "坐标密度"
+    }
+  },
+  "labels": {
+    "phone": "电话",
+    "address": "地址",
+    "price": "价格",
+    "distance": "距离",
+    "time": "时间",
+    "driver": "司机",
+    "car": "车辆",
+    "plate": "车牌",
+    "rating": "评分",
+    "comment": "评论",
+    "created_at": "创建时间",
+    "updated_at": "更新时间"
+  },
+  "common": {
+    "next": "下一步",
+    "skip": "跳过",
+    "loading": "加载中..."
+  },
+  "language": {
+    "select": "语言",
+    "ru": "РУ",
+    "kz": "ҚЗ",
+    "en": "EN",
+    "zh": "中文"
+  },
+  "messages": {
+    "order_created": "订单创建成功。",
+    "order_cancelled": "订单已取消。",
+    "rating_saved": "感谢您的评价！",
+    "link_copied": "链接已复制。"
+  },
+  "notifications": {
+    "title": "APARU",
+    "permission_title": "开启通知",
+    "permission_subtitle": "行程状态变化时我们会通知您。",
+    "permission_allow": "允许",
+    "permission_later": "稍后",
+    "order_status_changed": "订单状态：{{status}}"
+  }
+}

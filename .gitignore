@@ -1,0 +1,138 @@
+# Environment variables
+.env
+.env.local
+.env.production
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Node.js / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.yarn-integrity
+.pnp.*
+dist/
+build/
+.vite/
+
+# Docker
+docker-compose.override.yml
+
+# Database
+*.db
+*.sqlite3
+*.sqlite
+
+# Generated files
+backend/static/qr/*.png
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+.Spotlight-V100
+.Trashes
+
+# Logs
+*.log
+logs/
+log/
+
+# Testing
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Pycharm
+.idea/
+
+# AWS
+.aws/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
