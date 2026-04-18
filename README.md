@@ -305,6 +305,11 @@ curl http://localhost/api/locations/
 # Metabase
 open http://localhost/metabase
 ```
+### 6. Выдача админа
+
+```bash
+UPDATE users SET is_admin = true WHERE phone = "+7 777 777 7777";
+```
 
 ### Маршруты Nginx
 
